@@ -1,0 +1,21 @@
+{
+  "name" : "Dbeazy/SlimWebsite",
+  "authors": [
+    {
+      "name": "Devin McBeth",
+      "email": "chromiem@gmail.com",
+      "homepage": "https://ca.linkedin.com/in/dbeazy",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "slim/slim": "^3.0"
+  },
+  "autoload":{
+    "psr-4": {
+      "Controllers\\": "app/Controllers",
+      "Views\\": "app/Views",
+      "Models\\": "app/Models"
+    }
+  }
+}

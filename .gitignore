@@ -1,0 +1,6 @@
+# Adding Composer files
+composer.lock
+vendor
+
+# Local development tools
+.idea
