@@ -1,0 +1,18 @@
+propel:
+  database:
+    connections:
+      slim_site:
+        adapter: sqlite
+        dsn: "sqlite:host=../example.db;"
+        user:
+        password:
+        settings:
+          charset: utf8
+  runtime:
+    defaultConnection: slim_site
+    connections:
+      - slim_site
+  generator:
+    defaultConnection: slim_site
+    connections:
+      - slim_site
